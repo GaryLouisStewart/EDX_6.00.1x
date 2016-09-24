@@ -1,11 +1,11 @@
 # a small program for calculating the approximate soloution of a cube root of any given number
 
-cube = 272
+cube = 27
 epsilon = 0.01
 guess = 0.0
-increment = 0.0001
+increment = 0.01
 num_guesses = 0
-while abs(guess**3 - cube) >= epsilon:
+while abs(guess**3 - cube) >= epsilon and guess <= cube:
     guess += increment
     num_guesses += 1
 print('num_guesses =', num_guesses)
