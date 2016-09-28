@@ -1,7 +1,7 @@
 '''
 A simple program created to calculate the credit card balance after one year if the person only pays back the minimum payments each month.
 '''
-balance = 42
+balance = 3200
 annualInterestRate = 0.2
 monthlyPaymentRate = 0.04
 monthlyInterestRate = annualInterestRate / 12.0
