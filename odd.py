@@ -9,4 +9,4 @@ def odd(x):
     else:
         return True
 
-print odd(6)
+print odd(1)
