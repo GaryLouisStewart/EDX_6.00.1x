@@ -40,7 +40,7 @@ print(fact(1))
 
 
 '''
-Iteration vs Recursion below... Factiorial_iter is an example of iteration and factorial is an example or recursion
+Iteration vs Recursion below... Factorial_iter is an example of iteration and factorial is an example or recursion
 
 
 '''
