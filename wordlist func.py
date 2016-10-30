@@ -15,13 +15,13 @@ def playGame(wordList):
     iter = 0
 
     while True:
-        cmd = raw_input('Enter n to deal a new hand, r to replay the last hand, or e to end the game: ')
+        cmd = input('Enter n to deal a new hand, r to replay the last hand, or e to end the game: ')
 
         if cmd == 'n':
            hand = dealHand(n)
            iter = 1
            while True:
-               playCmd = raw_input('Enter u for the user to play the hand, or c for the computer to play the hand: ')
+               playCmd = input('Enter u for the user to play the hand, or c for the computer to play the hand: ')
                if playCmd == 'u':
                    playHand(hand.copy(), wordList, n)
                    break
@@ -36,7 +36,7 @@ def playGame(wordList):
                     print 'You have not played a hand yet. Please play a new hand first!'
                 else:
                     while True:
-                        playCmd = raw_input('Enter u for the user to play the hand, or c for the computer to play the hand: ')
+                        playCmd = input('Enter u for the user to play the hand, or c for the computer to play the hand: ')
                         if playCmd == 'u':
                             playHand(hand.copy(), wordList, n)
                             break
