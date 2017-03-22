@@ -57,4 +57,9 @@ class USResident(Person):
         """
         Returns the status
         """
-        # Write your code here
+        return self.status
+        
+        
+        
+        
+        
