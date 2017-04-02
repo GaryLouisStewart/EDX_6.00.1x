@@ -21,8 +21,12 @@ class Program():
         self.version = new_version
 
         
+<<<<<<< HEAD
 p1 = Program()
 
+=======
+#p1 = Program()
+>>>>>>> 220c6151ea7e080eafab5312ca6f66f1ebb60434
 #p2 = Program()
 # p1.lang
 # p1.version
