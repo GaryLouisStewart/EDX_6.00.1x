@@ -23,10 +23,6 @@ class Program():
         
 p1 = Program()
 
-
-
-
-
 #p2 = Program()
 # p1.lang
 # p1.version
